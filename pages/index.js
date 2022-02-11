@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Search from '../components/Search'
 
 export default function Home() {
   return (
@@ -9,9 +10,9 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <h1 className='grid place-items-center h-screen'>
-        DOPE GOOGLE WITH NEXTJS AND TAILWINDCSS ⚡
-      </h1>
+      <div>
+        <Search />
+      </div>
     </div>
   )
 }
